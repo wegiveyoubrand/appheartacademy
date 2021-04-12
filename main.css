@@ -63,8 +63,8 @@ nav a {
   text-decoration: none;
   display: inline-block;
   padding: 10px 15px;
-font-weight: 700;
-  font-size: .85rem;
+  font-weight: 700;
+  font-size: 0.85rem;
 }
 nav a:first-child {
   color: blue;
@@ -82,10 +82,13 @@ nav a:last-child {
   place-items: center;
 }
 
-#Login-View {
+#Login-View .main {
+  justify-items: center;
+  align-content: center;
 }
 
-#browseCourses .main {
+#browseCourses .main,
+#Login-View .main {
   place-items: unset;
 }
 
@@ -100,13 +103,14 @@ nav a:last-child {
 }
 
 .form-wrapper {
-  background-color: #fff;
-  padding: 2rem;
 }
 .form {
+  background-color: #fff;
+  padding: 2rem;
+
   width: 100%;
-  min-width: 300px;
   max-width: 400px;
+  margin: 0 auto;
 }
 .form-title {
   padding-bottom: 15px;
@@ -208,7 +212,7 @@ input {
   padding: 1rem;
 }
 
-.slide div:last-child  h2 {
+.slide div:last-child h2 {
   width: 100%;
   max-width: 600px;
   margin: 0 auto;
@@ -221,7 +225,7 @@ input {
   outline: none;
   border: none;
   letter-spacing: 1px;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-size: 1rem;
   padding: 15px 30px;
 }
