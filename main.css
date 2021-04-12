@@ -214,7 +214,7 @@ input {
   background: rgba(3, 3, 3, 0.95);
   position: absolute;
   backdrop-filter: blur(8px);
-  font-family: "Permanent Marker";
+  font-family: "Permanent Marker", cursive;
   color: #fff;
   display: flex;
   flex-direction: column;
